@@ -1,0 +1,5 @@
+#Connect to a share
+smbclient //<hostname>/share -U<<username>%<password>
+
+#Display public shares 
+smbclient //<hostname>/<share> -U<username>%<password>
